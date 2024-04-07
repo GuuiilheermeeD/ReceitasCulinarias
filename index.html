@@ -1,77 +1,161 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
-  
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap"
+    rel="stylesheet">
+
   <title>Frontend Mentor | Recipe page</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
   </style>
 </head>
+
 <body>
 
-  Receita Simples de Omelete
+  <main class="caixa_principal">
+    <section class="caixa_secundaria">
+      <div class="imagem_omelete">
+        <img src="assets/images/image-omelette.jpeg" alt="omelete">
+      </div>
+      <h1 class="titulo_principal">Receita Simples de Omelete</h1>
 
-  Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos
-  com perfeição, opcionalmente recheado com queijo, vegetais ou carnes de sua escolha.
+      <p>Um prato fácil e rápido, perfeito para qualquer refeição. Esta omelete clássica combina ovos batidos cozidos
+        com perfeição, opcionalmente recheado com queijo, vegetais ou carnes de sua escolha.
+      </p>
 
-  Tempo de preparação
+      <div class="preparo">
+        <h4 class="titulo_preparo">Tempo de preparação</h2>
+          <ul>
+            <li>
+              <strong>Total:</strong> Aproximadamente 10 minutos
+            </li>
+            <li>
+              <strong>Preparação:</strong> 5 minutos
+            </li>
+            <li>
+              <strong>Cozinhando:</strong> 5 minutos
+            </li>
+          </ul>
+      </div>
 
-  Total: Aproximadamente 10 minutos
-  Preparação: 5 minutos
-  Cozinhando: 5 minutos
+      <div class="Instrucoes">
+        <h2 class="sub_titulo">Ingredientes</h2>
+        <ul>
+          <li>
+            2-3 ovos grandes
+          </li>
+          <li>
+            Sal, a gosto
+          </li>
+          <li>
+            Pimenta a gosto
+          </li>
+          <li>
+            1 colher de sopa de manteiga ou óleo
+          </li>
+          <li>
+            Recheios opcionais: queijo, legumes em cubos, carnes cozidas, ervas
+          </li>
+        </ul>
+      </div>
 
-  Ingredientes
+      <hr>
+      <h2 class="sub_titulo">Instruções</h2>
+      <ul class="lista_numerada">
+        <li>
+          <p><strong>Bata os ovos:</strong> Numa tigela, bata os ovos com uma pitada de sal e pimenta até ficarem bem
+            misturados.
+            Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Aqueça a panela:</strong> Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou
+            óleo.
+          </p>
+        </li>
+        <li>
+          <p>
+            <strong>Cozinhe a omelete:</strong> Assim que a manteiga derreter e borbulhar, coloque os ovos. Incline a
+            panela para
+            garantir
+            os ovos cobrem uniformemente a superfície.
+        </li>
+        <li>
+          <p>
+            <strong>Adicione recheios (opcional):</strong> Quando os ovos começarem a endurecer nas bordas, mas ainda
+            estiverem um pouco
+            escorrendo no meio, polvilhe os recheios escolhidos sobre metade da omelete.
+        </li>
+        <li>
+          <p>
+            <strong>Dobre e sirva:</strong> Enquanto a omelete continua cozinhando, levante cuidadosamente uma das
+            pontas e dobre-a
+            sobre o recheios. Deixe cozinhar por mais um minuto e depois coloque-o em um prato.
+        </li>
+        <li>
+          <p>
+            <strong>Aproveite:</strong> Sirva quente, com mais sal e pimenta se necessário.
 
-  2-3 ovos grandes
-  Sal, a gosto
-  Pimenta a gosto
-  1 colher de sopa de manteiga ou óleo
-  Recheios opcionais: queijo, legumes em cubos, carnes cozidas, ervas
+        </li>
+      </ul>
 
-  Instruções
+      <hr>
 
-  Bata os ovos: Numa tigela, bata os ovos com uma pitada de sal e pimenta até ficarem bem misturados.
-  Você pode adicionar uma colher de sopa de água ou leite para obter uma textura mais fofa.
+      <div>
+      <h2 class="sub_titulo">Nutrição</h2>
+      <p>
+        A tabela abaixo mostra os valores nutricionais por porção sem recheios adicionais.
+      </p>
+        <div class="tabela">
+        <div class="linha">
+          <div class="coluna">Calorias</div>
+          <div class="coluna "> <strong>277kcal</strong></div>
+        </div>
+        <hr>
+        <div class="linha">
+          <div class="coluna">Carboidratos</div>
+          <div class="coluna "><strong>0g</strong></div>
+        </div>
+        <hr>
+        <div class="linha">
+          <div class="coluna">Proteína</div>
+          <div class="coluna "><strong>20g</strong></div>
+        </div>
+        <hr>
+        <div class="linha">
+          <div class="coluna">Gordo</div>
+          <div class="coluna "><strong>22g</strong></div>
+        </div>
+      </div>
+    </section>
 
-  Aqueça a panela: Coloque uma frigideira antiaderente em fogo médio e adicione manteiga ou óleo.
 
-  Cozinhe a omelete: Assim que a manteiga derreter e borbulhar, coloque os ovos. Incline a panela para garantir
-  os ovos cobrem uniformemente a superfície.
-
-  Adicione recheios (opcional): Quando os ovos começarem a endurecer nas bordas, mas ainda estiverem um pouco escorrendo no
-  no meio, polvilhe os recheios escolhidos sobre metade da omelete.
-
-  Dobre e sirva: Enquanto a omelete continua cozinhando, levante cuidadosamente uma das pontas e dobre-a sobre o
-  recheios. Deixe cozinhar por mais um minuto e depois coloque-o em um prato.
-
-  Aproveite: Sirva quente, com mais sal e pimenta se necessário.
-
-  Nutrição
-
-  A tabela abaixo mostra os valores nutricionais por porção sem recheios adicionais.
-
-  Calorias
-  277kcal
-
-  Carboidratos
-  0g
-
-  Proteína
-  20g
-
-  Gordo
-  22g
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
-  </div>
+    <footer>
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Your Name Here</a>.
+      </div>
+    </footer>
+  </main>
 </body>
+
 </html>

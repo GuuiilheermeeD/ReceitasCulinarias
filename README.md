@@ -4,7 +4,7 @@
 
 ## Bem-vindo! 👋
 
-Obrigado por conferir este desafio de codificação front-end.
+Obrigado por conferir este desafio de front-end.
 
 Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a melhorar suas habilidades de codificação criando projetos realistas.
 
@@ -12,7 +12,7 @@ Os desafios do [Frontend Mentor](https://www.frontendmentor.io) ajudam você a m
 
 ## O desafio
 
-Seu desafio é construir esta página de receitas e fazê-la parecer o mais próximo possível do design.
+Seu desafio é construir esta página de receitas e fazer-la parecer o mais próximo possível do design.
 
 Você pode usar qualquer ferramenta que desejar para ajudá-lo a completar o desafio. Então, se você tem algo que gostaria de praticar, sinta-se à vontade para tentar.
 
@@ -20,7 +20,7 @@ Quer algum apoio no desafio? [Junte-se à nossa comunidade](https://www.frontend
 
 ## Onde encontrar tudo
 
-Sua tarefa é construir o projeto com os designs dentro da pasta `/design`. Você encontrará uma versão móvel e uma versão desktop do design.
+Sua tarefa é construir o projeto com os designs dentro da massa `/design`. Você encontra uma versão móvel e uma versão desktop do design.
 
 Os designs estão em formato estático JPG. Usar JPGs significa que você precisará usar seu bom senso para estilos como `tamanho da fonte`, `preenchimento` e `margem`.
 
@@ -46,5 +46,5 @@ Sinta-se à vontade para usar qualquer fluxo de trabalho com o qual se sinta con
 
 Conforme mencionado acima, há muitas maneiras de hospedar seu projeto gratuitamente. Nossos anfitriões recomendados são:
 
-- [Páginas do GitHub](https://pages.github.com/)
-- [Vercel](https://vercel.com/)
+- [Páginas do GitHub](https://github.com/GuuiilheermeeD/ReceitasColinarias)
+- [Vercel](https://receitas-colinarias.vercel.app/)
