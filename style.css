@@ -108,10 +108,16 @@ li::marker{
     padding: 3px;
 }
 
-footer{
+.attribution{
     width: 100%;
     margin: 10% 0px 0px;
     padding: 1px;
+}
+
+.attribution a{
+    color: var(--cor-primaria);
+    text-decoration: none;
+
 }
 
 @media screen and (min-width: 1441px) {
