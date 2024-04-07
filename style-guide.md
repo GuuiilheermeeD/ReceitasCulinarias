@@ -4,8 +4,9 @@
 
 Os designs foram criados nas seguintes larguras:
 
-- Celular: 375px
+ Celular: 375px a parti de 768px a responsividade 
 Área de trabalho: 1440px
+Área de trabalho: e acima de 1440px
 
 > 💡 Esses são apenas os tamanhos do design. Garanta que o conteúdo seja responsivo e atenda aos requisitos WCAG, testando toda a gama de tamanhos de tela, de 320px a telas grandes.
 

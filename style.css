@@ -3,9 +3,11 @@ body {
     padding: 0;
     border: 0;
 }
-hr{
+
+hr {
     width: 100%;
 }
+
 :root {
     /* Primário */
     --cor-primaria: #854632;
@@ -18,6 +20,7 @@ hr{
     --Light-Grey: #e4ded8;
     --Wenge-Brown: #5f574e;
     --Dark-Charcoal: #302d2c;
+    --link: #3e52a3;
 
     /* Cor das Fontes "Sub-titulos"*/
     --Nutmeg: #854632;
@@ -67,14 +70,16 @@ hr{
 
 .titulo_principal,
 .titulo_preparo,
-.sub_titulo, .tabela strong{
+.sub_titulo,
+.tabela strong {
     font-family: var(--fonte-titulo);
     font-weight: 600;
     color: var(--cor-primaria);
 }
 
-
-
+.titulo_principal{
+    color: black;
+}
 .titulo_preparo {
     color: #7b284f;
 }
@@ -83,41 +88,77 @@ hr{
     display: flex;
     flex-direction: column;
 }
-.lista_numerada{
+
+.lista_numerada {
     list-style: decimal;
 }
-.preparo li::marker{
+
+.preparo li::marker {
     color: var(--cor-secundaria);
 }
-li::marker{
+
+li::marker {
     color: var(--cor-primaria);
     font-weight: 600;
 }
 
-.tabela strong{
+.tabela strong {
     font-family: var(--fonte-principal);
 }
+
 .linha {
     display: flex;
     flex-direction: row;
 }
 
-.coluna{
-   width: 100%;
+.coluna {
+    width: 100%;
     border: 0 solid black;
     padding: 3px;
 }
 
-.attribution{
+.attribution {
     width: 100%;
     margin: 10% 0px 0px;
     padding: 1px;
+    font-size: 11px;
+    text-align: center;
 }
 
-.attribution a{
+.attribution a {
     color: var(--cor-primaria);
     text-decoration: none;
+    color: var(--link);
 
+}
+
+@media screen and (max-width: 375px ) {
+    .caixa_principal {
+        padding: 0px;
+        margin: 0px;
+        justify-content: center;
+        align-items: center;
+        background-color: var(--White);
+    }
+    
+    .caixa_secundaria {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        border-radius: 0px;
+    }
+    hr{
+        width: 90%;
+    }
+    
+    .instrucoes{
+        margin: 10%;
+    }
+    
+    .imagem_omelete img{
+        width: 100%;
+        border-radius: 0px;
+    }
 }
 
 @media screen and (min-width: 1441px) {
