@@ -1,22 +1,21 @@
-# Front-end Style Guide
+# Guia de estilo de front-end
 
-## Layout
+##Layout
 
-The designs were created to the following widths:
+Os designs foram criados nas seguintes larguras:
 
-- Mobile: 375px
-- Desktop: 1440px
+- Celular: 375px
+Área de trabalho: 1440px
 
-> 💡 These are just the design sizes. Ensure content is responsive and meets WCAG requirements by testing the full range of screen sizes from 320px to large screens.
+> 💡 Esses são apenas os tamanhos do design. Garanta que o conteúdo seja responsivo e atenda aos requisitos WCAG, testando toda a gama de tamanhos de tela, de 320px a telas grandes.
 
-## Colors
+## Cores
 
-### Primary
-
+### Primário
 - Nutmeg: hsl(14, 45%, 36%)
 - Dark Raspberry: hsl(332, 51%, 32%)
 
-### Neutral
+### Neutro
 
 - White: hsl(0, 0%, 100%)
 - Rose White: hsl(330, 100%, 98%)
@@ -25,13 +24,13 @@ The designs were created to the following widths:
 - Wenge Brown: hsl(30, 10%, 34%)
 - Dark Charcoal: hsl(24, 5%, 18%)
 
-## Typography
+## Tipografia
 
-### Body Copy
+### Cópia do corpo
 
 - Font size (paragraph): 16px
 
-### Fonts
+### Fontes
 
 - Family: [Young Serif](https://fonts.google.com/specimen/Young+Serif)
 - Weights: 400
@@ -39,4 +38,4 @@ The designs were created to the following widths:
 - Family: [Outfit](https://fonts.google.com/specimen/Outfit)
 - Weights: 400, 600, 700
 
-> 💎 [Upgrade to Pro](https://www.frontendmentor.io/pro?ref=style-guide) for design file access to see all design details and get hands-on experience using a professional workflow with tools like Figma.
+> 💎 [Atualize para Pro](https://www.frontendmentor.io/pro?ref=style-guide) para acesso ao arquivo de design para ver todos os detalhes do design e obter experiência prática usando um fluxo de trabalho profissional com ferramentas como o Figma.
